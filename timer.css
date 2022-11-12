@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #04f1e6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #03daf7, #05e5ec);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #03daf7, #05e5ec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+    margin: auto;
+    position: relative;
+    top: 130px;
+    left: 240px;
+}
+
+.boxes{
+    display: flex;
+    gap: 100px;
+}
+
+.bar{
+  min-height: 200px;
+  min-width: 200px;
+  background-color: wheat;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bar-2{
+    min-height: 200px;
+    min-width: 200px;
+    background-color: wheat;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bar-3{
+    min-height: 200px;
+    min-width: 200px;
+    background-color: wheat;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bar > p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.bar-2 > p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.bar-3 > p{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.hours{
+    margin-left: 67px;
+    position: relative;
+    top: 30px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.minutes{
+    margin-left: 62px;
+    position: relative;
+    top: 30px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.seconds{
+    margin-left: 62px;
+    position: relative;
+    top: 30px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
